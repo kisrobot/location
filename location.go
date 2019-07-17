@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/qor"
+	"github.com/kisrobot/qor/resource"
+	"github.com/kisrobot/qor/utils"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/location/views")
+	admin.RegisterViewPath("github.com/kisrobot/location/views")
 }
 
 var (

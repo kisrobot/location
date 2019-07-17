@@ -1,15 +1,15 @@
 # Location
 
-Location picks up location details from an interactive Google Map widget when creating/editing any applicable Resource in [Qor Admin](http://github.com/qor/admin).
+Location picks up location details from an interactive Google Map widget when creating/editing any applicable Resource in [Qor Admin](http://github.com/kisrobot/admin).
 
 # Usage
 
-To use Location with [QOR Admin](http://github.com/qor/admin), simply embed `location.Location` in a model then behold the map picker in the [QOR Admin](http://github.com/qor/admin) interface.
+To use Location with [QOR Admin](http://github.com/kisrobot/admin), simply embed `location.Location` in a model then behold the map picker in the [QOR Admin](http://github.com/kisrobot/admin) interface.
 
 ```go
 import (
   "github.com/jinzhu/gorm"
-  "github.com/qor/location"
+  "github.com/kisrobot/location"
 )
 
 type Store struct {
